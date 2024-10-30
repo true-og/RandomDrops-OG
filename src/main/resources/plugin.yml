@@ -1,5 +1,5 @@
-name: SilkSpawners-OG
+name: RandomDrops-OG
 version: '${version}'
-main: me.sekalol15.SilkSpawnersOG.SilkSpawnersOG
+main: src.RandomDropsOG
 author: Sekalol15
-api-version: 1.19
+api-version: '${apiVersion}'
