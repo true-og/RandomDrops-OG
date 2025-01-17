@@ -10,7 +10,7 @@ plugins {
 group = "net.trueog.randomdrops-og" // Declare bundle identifier.
 version = '2.1.1'
 
-def apiVersion = "1.19.4" // Declare minecraft server target version.
+def apiVersion = "1.19" // Declare minecraft server target version.
 def targetJavaVersion = 17 // Declare java compatibility minimum.
 
 processResources {
