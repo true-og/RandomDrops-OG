@@ -1,14 +1,14 @@
 plugins {
 
     id 'java' // Tell gradle this is a java project.
-    id 'com.github.johnrengelman.shadow' version '7.1.2' // Import utility to package libraries into .jar file.
     id 'eclipse'
+    id 'com.gradleup.shadow' version '8.3.5' // Import shadow plugin for shading.
     id 'org.jetbrains.kotlin.jvm' version '1.9.0' // Import eclipse plugin for IDE integration.
 
 }
 
 group = "net.trueog.randomdrops-og" // Declare bundle identifier.
-version = '2.1'
+version = '2.1.1'
 
 def apiVersion = "1.19.4" // Declare minecraft server target version.
 def targetJavaVersion = 17 // Declare java compatibility minimum.
@@ -45,7 +45,7 @@ repositories {
 dependencies {
 
     compileOnly "org.purpurmc.purpur:purpur-api:1.19.4-R0.1-SNAPSHOT"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8" // Declare purpur API version to be packaged.
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8" 
 
 }
 
