@@ -1,4 +1,4 @@
-package src
+package plugin
 
 import org.bukkit.plugin.java.JavaPlugin
 
