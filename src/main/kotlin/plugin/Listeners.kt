@@ -1,4 +1,4 @@
-package src
+package plugin
 
 import io.papermc.paper.event.block.DragonEggFormEvent
 import net.kyori.adventure.text.Component

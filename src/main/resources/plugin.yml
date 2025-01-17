@@ -1,5 +1,7 @@
-name: SilkSpawners-OG
-version: '${version}'
-main: me.sekalol15.SilkSpawnersOG.SilkSpawnersOG
+name: RandomDrops-OG
 author: Sekalol15
-api-version: 1.19
+description: Makes various items obtainable. Crafted by TrueOG Network.
+website: https://github.com/true-og/RandomDrops-OG
+version: '${version}'
+api-version: '${apiVersion}' 
+main: plugin.RandomDropsOG

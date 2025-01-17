@@ -1,4 +1,4 @@
-package src
+package plugin
 
 import org.bukkit.configuration.file.FileConfiguration
 import org.bukkit.configuration.file.YamlConfiguration
@@ -9,9 +9,9 @@ import java.io.File
         private lateinit var file: File
 
         fun load() {
-            file = File(`RandomDrops-OG`.plugin.dataFolder, "config.yml")
+            file = File(`RandomDropsOG`.plugin.dataFolder, "config.yml")
             if (!file.exists()) {
-                `RandomDrops-OG`.plugin.saveDefaultConfig()
+                `RandomDropsOG`.plugin.saveDefaultConfig()
             }
 
             config = YamlConfiguration.loadConfiguration(file)
